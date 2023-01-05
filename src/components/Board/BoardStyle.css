@@ -1,0 +1,43 @@
+.assembly-add-item-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.assembly-add-item {
+  box-shadow: 0px 0px 1px 0px rgb(190, 190, 190);
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.assembly-stage-container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.stage-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.stage-name {
+  font-weight: bold;
+  width: 10rem;
+  height: 1.5rem;
+  background-color: #00569c;
+  margin-bottom: 1rem;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+
+.stage-item {
+  box-shadow: 0px 0px 1px 0px rgb(190, 190, 190);
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
